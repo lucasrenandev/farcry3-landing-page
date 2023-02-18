@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Poppins", sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+:root {
+    --text-color: #fff;
+    --main-color: #0bcf0b;
+    --h1-font: 4.5rem;
+    --h2-font: 2.2rem;
+    --p-font: 1rem;
+}
+
+body {
+    background: linear-gradient(to right, rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.425)), url("./assets/background.jpg") no-repeat center / cover;
+}
+
+main {
+    padding: 80px 10%;
+}

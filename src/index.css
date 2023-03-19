@@ -17,10 +17,12 @@
     --p-font: 1rem;
 }
 
-body {
+#root {
+    width: 100%;
+    min-height: 100vh;
     background: linear-gradient(to right, rgba(0, 0, 0, 0.164), rgba(0, 0, 0, 0.425)), url("./assets/background.jpg") no-repeat center / cover;
 }
 
-main {
+section {
     padding: 80px 10%;
 }

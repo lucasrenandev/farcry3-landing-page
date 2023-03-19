@@ -47,7 +47,6 @@
 #menu-icon {
     font-size: 30px;
     color: var(--text-color);
-    z-index: 10001;
     cursor: pointer;
     display: none;
 }

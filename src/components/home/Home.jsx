@@ -1,10 +1,11 @@
-import Fade from 'react-reveal/Fade'
 import homeImage from '../../assets/home.jpg'
+import Fade from 'react-reveal/Fade'
+import '../home/home.css'
 
 const Home = () => {
     return(
-        <main className="home">
-            <Fade left distance={"60px"} duration={2000} delay={200}>
+        <section className="home">
+            <Fade left distance={"80px"} duration={2000} delay={200}>
                 <aside className="home-text">
                     <h3>Ubisoft montreal</h3>
                     <h1>Far cry 3</h1>
@@ -13,12 +14,12 @@ const Home = () => {
                 </aside>{/*End home text */}
             </Fade>
 
-            <Fade right distance={"60px"} duration={2000} delay={200}>
+            <Fade right distance={"80px"} duration={2000} delay={200}>
                 <figure className="home-image">
                     <img src={homeImage} alt="Main image" />
                 </figure>{/*End home image*/}
             </Fade>
-        </main>//End main home
+        </section>//End home section
     )
 }
 

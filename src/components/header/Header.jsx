@@ -1,6 +1,7 @@
 import { useRef, useState, useEffect } from "react"
 import {BiMenu} from "react-icons/bi"
 import {IoClose} from 'react-icons/io5'
+import '../header/header.css'
 
 const Header = () => {
     const navRef = useRef()
@@ -28,7 +29,7 @@ const Header = () => {
     
     return(
         <header className="header">
-            <a href="index.html" className="logo">FC3</a>
+            <a href="/" className="logo">FC3</a>
 
             <nav ref={navRef} onScroll={hiddenMenu} className="navbar">
                 <ul className="nav-list">
